@@ -7,6 +7,7 @@
 
     --violet: hsl(257, 40%, 49%);
     --softmagenta: hsl(300, 69%, 71%);
+    --white: hsl(0, 0%, 100%);
 
 }
 
@@ -14,7 +15,7 @@
 html {font-size: 100%;} /*16px*/
 
 body {
-    background: var(--violet);
+    background: var(--white);
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     line-height: 1.75;
@@ -65,4 +66,39 @@ small, .text-small {font-size: 0.8rem;}
     display: block;
     width: 100%;
     object-fit: contain;
+}
+
+body {
+    display: grid;
+    justify-content: center;
+}
+
+.page-container {
+    display: grid;
+    min-height: 100vh;
+    max-width: 330px;
+    width: 100%;
+    border: 2px solid red;
+    background-color: var(--violet);
+    background-image: url(/images/bg-mobile.svg);
+    grid-template-rows: 70px 1fr 1fr;
+
+}
+
+.logo {
+    height: 50%;
+    width: 50%;
+    border: 2px solid wheat;
+    padding-top: 1.5rem;
+    margin-left: 1rem;
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+}
+.illustration {
+    width: 90%;
+    display: flex;
+    padding: 1.5rem;
 }
