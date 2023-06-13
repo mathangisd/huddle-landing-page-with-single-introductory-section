@@ -63,7 +63,6 @@ h5 {font-size: 1.25rem;}
 
 small, .text-small {font-size: 0.8rem;}
 
-
 .sr-only{
     border:0; 
     clip: rect(1px, 1p
@@ -89,7 +88,6 @@ a {
     text-decoration: none;
 }
 
-
 .page-container {
     display: grid;
     justify-content: center;
@@ -105,7 +103,6 @@ a {
     width: 60%;
     padding-top: 1.5rem;
 }
-
 
 .illustration {
     display: flex;
@@ -216,7 +213,6 @@ Media Query
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
         column-gap: 100px;
-
     }
 
     .illustration {
