@@ -56,7 +56,7 @@ Users should be able to:
 
 ### What I learned
 
-This challenge helped me get a good understanding of css grid and flexbox properties. I used pixel perfect to match it closely with the design.
+This challenge helped me get a good understanding of css grid and flexbox properties and how to use Font Awesome icons.
 
 ### Continued-Development
 I would like to build more projects using CSS grid and make them responsive.
