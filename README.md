@@ -64,6 +64,8 @@ I would like to build more projects using CSS grid and make them responsive.
 ## Useful resources
 - [How to Create Circular Backgrounds for your Font Awesome Icons](https://markheath.net/post/font-awesome-circle-background)
 
+- [The problem with social media icons and how to fix it](https://savvas.me/accessibility/problem-with-social-icons)
+
 ## Author
 - Website - [Mathangi Subramanian](https://github.com/mathangisd)
 - Frontend Mentor - [mathangisd](https://www.frontendmentor.io/profile/mathangisd)
